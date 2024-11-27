@@ -5076,6 +5076,7 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 4rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
