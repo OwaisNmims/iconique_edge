@@ -5224,7 +5224,7 @@ label {
   overflow: hidden;
 }
 .cs-hero.cs-style3 .cs-hero_title {
-  font-size: 100px;
+  font-size: 95px;
   font-weight: 700;
   margin-bottom: 60px;
   line-height: 1.6em;
@@ -5346,7 +5346,7 @@ label {
 .cs-hero.cs-style4 .cs-hero_title {
   margin: 0 0 10px 0;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 95px;
   position: relative;
 }
 .cs-hero.cs-style4 .cs-hero_title span {
@@ -5378,7 +5378,7 @@ label {
 .cs-hero.cs-style5 .cs-hero_title {
   margin: 0 0 60px 0;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 95px;
   position: relative;
 }
 .cs-hero.cs-style5 .cs-hero_text {
@@ -5621,7 +5621,7 @@ label {
   z-index: 2;
 }
 .cs-hero.cs-style7 .cs-hero_title {
-  font-size: 100px;
+  font-size: 95px;
   font-weight: 700;
   line-height: 1.3em;
   text-align: center;
@@ -6056,14 +6056,14 @@ label {
 }
 @media screen and (max-width: 1540px) {
   .cs-hero.cs-style1 {
-    padding-top: 220px;
+    padding-top: 120px;
     min-height: 960px;
   }
   .cs-hero.cs-style2 {
     height: 864px;
   }
   .cs-hero.cs-style2 .cs-hero_tab_item h2 {
-    font-size: 100px;
+    font-size: 95px;
   }
   .cs-hero.cs-style2 .cs-hero_tab_item:not(:last-child) {
     margin-bottom: 15px;
@@ -6076,7 +6076,7 @@ label {
     height: 680px;
   }
   .cs-hero.cs-style1.cs-type2 .cs-hero_title {
-    font-size: 100px;
+    font-size: 95px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -6088,7 +6088,7 @@ label {
     min-height: 880px;
   }
   .cs-hero.cs-style1 .cs-hero_title {
-    font-size: 100px;
+    font-size: 95px;
   }
   .cs-hero.cs-style3 .cs-hero_title {
     font-size: 80px;
