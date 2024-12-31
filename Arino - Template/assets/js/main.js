@@ -162,9 +162,20 @@
   function dynamicBackground() {
     $('[data-src]').each(function () {
       var src = $(this).attr('data-src');
-      $(this).css({
-        'background-image': 'url(' + src + ')',
-      });
+      // if data-hero is true then add background image should be cover
+      if ($(this).data('hero')) {
+        console.log('hero');
+        $(this).css({
+          'background-image': 'url(' + src + ')',
+          'background-size': 'cover',
+          'background-position': 'center',
+        });
+      } else {
+        $(this).css({
+          'background-image': 'url(' + src + ')',
+        });
+      }
+      
     });
   }
 
